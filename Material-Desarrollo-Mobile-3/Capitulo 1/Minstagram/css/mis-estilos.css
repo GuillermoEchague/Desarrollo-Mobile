@@ -1,0 +1,49 @@
+article {
+    align-content: center;
+    margin-top: 8%;
+
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+}
+
+.ancho {
+    margin-top: 5%;
+    width: 90%;
+    align-content: center;
+}
+
+.filtro-los70s {
+    filter: brightness(100%)
+            contrast(60%);
+}
+
+.filtro-negativo33 {
+    filter: invert(100%)
+            grayscale(100%);
+}
+
+.filtro-milnueve26 {
+    filter: grayscale(100%)
+}
+
+.filtro-mil899 {
+    filter: sepia(100%)
+            saturate(50%)
+            contrast(90%);
+}
+
+.filtro-borroso {
+    filter: blur(3px);
+}
+
+.photo {
+    width: 50%;
+    height: 50%;
+    object-fit: fill;
+}

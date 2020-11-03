@@ -1,0 +1,26 @@
+article {
+    margin-top: 60px;
+    background-color: #FFFEFF;
+}
+
+body {
+    background-color: #FFFEFF;
+}
+
+nav-bar {
+    background-color: #FAFAFA;
+}
+
+li, a {
+    background-color: #FAFAFA;
+}
+
+p, span {
+    color: #666666;
+}
+
+.alineado-al-centro {
+    margin-top: 5%;
+    text-align: center;
+    align-content: center;
+}

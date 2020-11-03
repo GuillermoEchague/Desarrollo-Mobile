@@ -1,0 +1,16 @@
+WEBVTT - subtitles
+
+1
+00:01.000 --> 00:04.000
+- Así se visualiza un track para video.
+
+2
+00:05.000 --> 00:09.000
+- La estructura de archivo es simple.
+- Y puede tener varios renglones.
+
+3
+00:11.000 --> 00:15.000
+- Ya puedes implementarlo en tus desarrollos móviles.
+
+NOTE Esto no saldrá impreso en pantalla

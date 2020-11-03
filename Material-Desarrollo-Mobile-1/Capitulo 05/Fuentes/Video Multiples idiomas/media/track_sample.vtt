@@ -1,0 +1,18 @@
+WEBVTT - subtitles
+
+1
+00:01.000 --> 00:04.000
+This is the way we can show on screen a video subtitle.
+
+2
+00:05.000 --> 00:09.000
+This is a simple file structure.
+And that supports multiple paragraphs.
+
+3
+00:11.000 --> 00:15.000
+You can start implementing this in your mobile devs.
+
+4
+00:18.000 --> 00:24.000
+And modify using CSS the stetic of its captions.

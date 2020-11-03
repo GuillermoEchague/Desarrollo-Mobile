@@ -1,0 +1,33 @@
+.logotipo {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+}
+
+.colorlogotipo {
+    color: darkslategray;
+}
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 34px;
+}
+
+h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+
+article {
+    margin-right: 10%;
+    margin-left: 10%;
+}

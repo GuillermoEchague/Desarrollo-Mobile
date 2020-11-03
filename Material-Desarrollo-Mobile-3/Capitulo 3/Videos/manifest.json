@@ -1,0 +1,65 @@
+{
+    "short_name": "VideoPy",
+    "name": "Videocurso de Python",
+    "background_color": "#FFFFDF",
+    "theme_color": "#FFFFDF",
+    "display": "standalone",
+    "orientation": "portrait",
+    "start_url": "index.html",
+    "icons": [
+        {
+        "src": "icons/videocurso-64.png",
+        "type": "image/png",
+        "sizes": "64x64",
+        "purpose": "maskable"
+        },
+        {
+        "src": "icons/videocurso-96.png",
+        "type": "image/png",
+        "sizes": "96x96",
+        "purpose": "maskable"
+        },
+        {
+        "src": "icons/videocurso-120.png",
+        "type": "image/png",
+        "sizes": "120x120",
+        "purpose": "maskable"
+        },
+        {
+        "src": "icons/videocurso-144.png",
+        "type": "image/png",
+        "sizes": "144x144",
+        "purpose": "maskable"
+        },
+        {
+        "src": "icons/videocurso-152.png",
+        "type":"image/png",
+        "sizes": "152x152",
+        "purpose": "maskable"
+        },
+        {
+        "src": "icons/videocurso-167.png",
+        "type":"image/png",
+        "sizes": "167x167",
+        "purpose": "maskable"
+        },
+        {
+        "src": "icons/videocurso-180.png",
+        "type":"image/png",
+        "sizes": "180x180",
+        "purpose": "maskable"
+        },
+        {
+        "src": "icons/videocurso-192.png",
+        "type":"image/png",
+        "sizes": "192x192",
+        "purpose": "maskable"
+        },
+        {
+        "src": "icons/videocurso-512.png",
+        "type":"image/png",
+        "sizes": "512x512",
+        "purpose": "maskable"
+        }
+    ]
+}

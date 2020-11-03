@@ -1,0 +1,32 @@
+﻿<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- <title>Video App</title> -->
+        <!-- <link rel="icon" href="icons/videocurso-64.png"> -->
+        <meta name="viewport" content="width=device-width">
+        <!-- <link rel="stylesheet" href="m/css/materialize.min.css">
+        <script src="m/js/materialize.min.js" defer></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Ubuntu|Material+Icons&display=swap');
+        </style> -->
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu|Material+Icons&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+        <link href="css/clasesyestilos.css" rel="stylesheet">
+        <script src="js/videolocal.js" defer></script>
+        <script src="js/videoapp.js" defer></script>
+    </head>
+    <body>
+        <div class="hide-on-med-and-down center">
+            <h5>Contenido apto para móviles (tables / smartphones)</h5>
+            <h6>Active por favor las Herramientas para el Desarrollador. (Tecla F12)</h6>
+        </div>
+        <div id="vdf" class="fixed valign-wrapper black hide-on-large-only">
+            <video id="remotevideo" class="hide"></video>
+            <img src="images/python_cover.png" width="100%" id="coverframe" class="fixed color-de-fondo">
+        </div>
+        <div id="listavideos" class="hide-on-large-only">
+            <!-- AQUÍ CARGAREMOS LA LISTA DE VIDEOS REMOTOS A REPRODUCIR -->
+        </div>
+    </body>
+</html>

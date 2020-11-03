@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Minstagram</title>
+        <link rel="icon" href="icons/mi-64.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <!-- APPLE MOBILE WEB APP CAPPABLE, TITLE, E ICONOS DE LA APP -->
+        <!-- ICONOS -->
+        <link rel="apple-touch-icon" sizes="32X32" href="icons/mi-32.png">
+        <link rel="apple-touch-icon" sizes="64X64" href="icons/mi-64.png">
+        <link rel="apple-touch-icon" sizes="96x96" href="icons/mi-96.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="icons/mi-120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="icons/mi-144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="icons/mi-152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="icons/mi-167.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="icons/mi-180.png">
+        <link rel="apple-touch-icon" sizes="192x192" href="icons/mi-192.png">
+        <link rel="apple-touch-icon" sizes="256x256" href="icons/mi-256.png">
+        <link rel="apple-touch-icon" sizes="512x512" href="icons/mi-512.png">
+        <!-- WEB APP CAPPABLE - TÍTULO -->
+        <meta name="apple-mobile-web-app-title" content="Minstagram">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="translucent">
+        <meta name="theme-color" content="#ffffff"/>
+        <!-- LAUNCH / SPLASH SCREEN -->
+
+        <!-- MATERIALIZE CSS Y JS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- MIS ARCHIVOS CSS Y JS -->
+        <link href="css/mis-estilos.css" rel="stylesheet">
+        <script defer src="js/minstagram.js"></script>
+    </head>
+    <body>
+        <div class="navbar-fixed z-depth-4">
+            <nav>
+                <div class="nav-wrapper white">
+                    <a href="#" class="brand-logo center"><img src="images/logo.png" width="60%"></a>
+                    <ul id="nav-mobile">
+                        <li class="blue darken-4 waves-effect waves-light" id="inicioCamara" href="">
+                            <a href="#"><i class="material-icons large">camera</i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <input type="file" accept="image/*" capture="camera" id="camera" class="hide"/>
+        <div id="modal1" class="modal grey lighten-3 z-depth-5">
+            <div class="modal-content">
+                <h4>Elegir filtro</h4>
+                <ul class="collection center">
+                    <button class="btn-flat grey large lighten-3 waves-effect waves-light" onclick="seleccionoFiltro('Borroso')">Borroso<i class="material-icons right">check</i></button>
+                    <br>
+                    <button class="btn-flat grey large lighten-3 waves-effect waves-light" onclick="seleccionoFiltro('Sepia 99')">Sepia 99<i class="material-icons right">check</i></button>
+                    <br>
+                    <button class="btn-flat grey large lighten-3 waves-effect waves-light" onclick="seleccionoFiltro('Gris 26')">Gris 26<i class="material-icons right">check</i></button>
+                    <br>
+                    <button class="btn-flat grey large lighten-3 waves-effect waves-light" onclick="seleccionoFiltro('Nega 33')">Nega 33<i class="material-icons right">check</i></button>
+                    <br>
+                    <button class="btn-flat grey large lighten-3 waves-effect waves-light" onclick="seleccionoFiltro('Clar 75')">Clar 75<i class="material-icons right">check</i></button>
+                    <br>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" id="btnAplicar" class="modal-close waves-effect waves-gray btn-flat black-text">Aplicar</a>
+            </div>
+        </div>    
+        <div id="advertencia-pantalla" class="hide-on-small-only center-align valign-wrapper" style="margin:10%; text-align:center; height: 100%;">
+                <h4 class="light-blue-text">Esta App solo funciona en <strong>smartphones, <u>a pantalla vertical</u>.</strong></h4>
+        </div>
+        <!-- Lo siguiente corresponde a la animación Preloader -->
+        <article id="cargando" class="center hide">
+            <div class="preloader-wrapper big active">
+                <div class="spinner-layer spinner-yellow-only">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div><div class="gap-patch">
+                        <div class="circle"></div>
+                    </div><div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>           
+        </article>
+        <!-- Lo siguiente corresponde al frame donde se cargará nuestra foto -->
+        <article id="mi-frame" class="hide-on-med-and-up hide"> <!--  -->
+            <!-- AQUÍ CREAREMOS UN NUEVO FRAME CON LA FOTO OQUE SACAREMOS -->
+        </article>
+        <article class="hide-on-med-and-up">
+            <div class="card z-depth-1">
+                <div class="card-image">
+                    <img src="pics/darth.png" id="imagen">
+                </div>
+                <div class="card-content">
+                    <a class="btn-flat btn-medium waves-effect waves-blue white" href="#"><i id="corazon" class="material-icons">favorite</i></a><badge>1.455</badge>
+                    <a class="btn-flat btn-medium waves-effect waves-blue white" href="#"><i id="mensaje" class="material-icons">chat</i></a><badge>181</badge>
+                    <p class="left-align" >Che <span class="blue-text"><strong>@princesa_leia</strong></span>, vente pal'lau oscuro! Quedó vacante el puesto de Comandante de abordo.<span class="red-text">#JoinUs</span></p>
+                </div>
+            </div>
+            <div class="card z-depth-1">
+                <div class="card-image">
+                    <img src="pics/leia.png">
+                </div>
+                <div class="card-content">
+                    <a class="btn-flat btn-medium waves-effect waves-blue white" href="#"><i id="corazon2" class="material-icons">favorite</i></a><badge>140.796</badge>
+                    <a class="btn-flat btn-medium waves-effect waves-blue white" href="#"><i id="mensaje2" class="material-icons">chat</i></a><badge>300.805</badge>
+                    <p class="left-align" >Gracias <span class="blue-text"><strong>@ex_anakinskywalkerOK</strong></span> pero de este lado estoy mucho más tranku! <span class="red-text">#ResistiendoConAguante #SiemprePrincesaNuncaINprincesa</span></p>
+                </div>
+            </div>
+        </article>
+    </body>
+</html>
+
+
+
+            <!-- <div class="row">
+                <div class="col s12 m7">
+                    <div class="card z-depth-1">
+                        <div class="card-image">
+                            <input type="file" accept="image/*" capture="camera" id="camera" class="hide"/>
+                            <img src="" id="mi-imagen">
+                            <a class="btn-floating halfway-fab btn-large waves-effect waves-light red darken-3 modal-trigger" href="#modal1"><i class="material-icons">palette</i></a>
+                        </div>
+                        <div class="card-content">
+                            <a class="btn-flat btn-medium waves-effect waves-blue white" href="#"><i id="corazon" class="material-icons">favorite_border</i></a>
+                            <a class="btn-flat btn-medium waves-effect waves-blue white" href="#"><i id="mensaje" class="material-icons">chat</i></a>
+                            <p class="left-align">Aquí publicamos un texto copado que 'ROMPA LA INTERNÉ'!</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->

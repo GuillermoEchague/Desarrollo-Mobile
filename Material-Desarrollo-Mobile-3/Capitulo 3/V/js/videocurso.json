@@ -1,0 +1,67 @@
+[
+    {
+        "id": "video01",
+        "titulo": "PRESENTACIÓN, REQUISITOS, INSTALACIÓN",
+        "desc": "Requisitos iniciales y qué instalar.",
+        "url": "https://www.ferpro.online/mp3/musica/python-video01.mp4",
+        "msj":""
+    },
+    {
+        "id": "video02",
+        "titulo": "FUNDAMENTOS - INTRODUCCIÓN",
+        "desc": "Principales características, bibliotecas y herramientas básicas.",
+        "url": "https://www.ferpro.online/mp3/musica/python-video02.mp4",
+        "msj":""
+    },
+    {
+        "id": "video03",
+        "titulo": "SINTAXIS BÁSICA DEL LENGUAJE I PARTE",
+        "desc": "comenzamos a ver la sintaxis básica del lenguaje.",
+        "url": "https://www.ferpro.online/mp3/musica/python-video03.mp4",
+        "msj": ""
+    },
+    {
+        "id": "video04",
+        "titulo": "SINTAXIS BÁSICA DEL LENGUAJE II PARTE",
+        "desc": "Próximamente.",
+        "url": "...",
+        "msj":"Video disponible a partir del 02-01-2020"
+    },
+    {
+        "id": "video05",
+        "titulo": "SINTAXIS BÁSICA III PARTE + FUNCIONES I",
+        "desc": "Próximamente.",
+        "url": "...",
+        "msj":"Video disponible a partir del 09-01-2020"
+    },
+    {
+        "titulo": "PRÓXIMAMENTE",
+        "desc": "Próximamente.",
+        "url": "...",
+        "msj":"Video disponible a partir del 16-01-2020"
+    },
+    {
+        "titulo": "PRÓXIMAMENTE",
+        "desc": "Próximamente.",
+        "url": "...",
+        "msj":"Video disponible a partir del 23-01-2020"
+    },
+    {
+        "titulo": "PRÓXIMAMENTE",
+        "desc": "Próximamente.",
+        "url": "...",
+        "msj":"Video disponible a partir del 30-01-2020"
+    },
+    {
+        "titulo": "PRÓXIMAMENTE",
+        "desc": "Próximamente.",
+        "url": "...",
+        "msj":"Video disponible a partir del 05-02-2020"
+    },
+    {
+        "titulo": "PRÓXIMAMENTE",
+        "desc": "Próximamente.",
+        "url": "...",
+        "msj":"Video disponible a partir del 12-02-2020"
+    }
+]

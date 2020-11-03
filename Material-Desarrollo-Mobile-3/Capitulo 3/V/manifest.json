@@ -1,0 +1,54 @@
+{
+	"dir" : "ltr",
+	"lang" : "Spanish; Castilian",
+	"name" : "Videocurso de Python",
+	"scope" : "/ejemplos/V/",
+	"display" : "standalone",
+	"start_url" : "/ejemplos/V/",
+	"short_name" : "Video App",
+	"description" : "Solo una PWA de muestra. Sin fines comerciales reales.",
+	"orientation" : "portrait",
+    "background_color" : "#FFFFDF",
+    "theme_color" : "#FFFFDF",
+	"related_applications" : [],
+	"prefer_related_applications" : false,
+	"screenshots" : [],
+	"generated" : "true",
+	"icons" : [
+		{
+			"src": "icons/videocurso-64.png",
+			"sizes": "64x64"
+		},
+		{
+			"src": "icons/videocurso-96.png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "icons/videocurso-120.png",
+			"sizes": "120x120"
+		},
+		{
+			"src": "icons/videocurso-144.png",
+			"sizes": "144x144"
+		},
+		{
+			"src": "icons/videocurso-152.png",
+			"sizes": "152x152"
+		},
+		{
+			"src": "icons/videocurso-167.png",
+			"sizes": "167x167"
+		},
+		{
+			"src": "icons/videocurso-180.png",
+			"sizes": "180x180"
+		},
+		{
+			"src": "icons/videocurso-192.png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "icons/videocurso-512.png",
+			"sizes": "512x512"
+		}]
+}

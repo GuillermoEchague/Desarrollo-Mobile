@@ -1,0 +1,25 @@
+h1, h2, h3, p, blockquote {
+    font-family: 'Tajawal', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.img-body {
+    box-shadow: 5px 5px rgb(198, 197, 197);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+blockquote {
+    color: grey;
+    border-color: darkred;
+}
+
+footer {
+    text-align: center;
+}

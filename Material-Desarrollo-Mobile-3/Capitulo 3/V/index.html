@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Video App</title>
+        <!-- <link rel="icon" href="icons/videocurso-64.png"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+        <meta name="Description" content="Videocurso online de Python, en 10 entregas semanales. Copyright: RedUsers, Año: 2020, Videos: 10">
+        <link rel="stylesheet" href="m/css/materialize.min.css">
+        <script src="m/js/materialize.min.js" defer></script>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Ubuntu|Material+Icons&display=swap');
+        </style>
+        <link href="css/clasesyestilos.css" rel="stylesheet">
+        <script src="js/videoapp.js" defer></script>
+        <link rel='manifest' href='manifest.json'>
+    </head>
+    <body>
+        <div class="hide-on-med-and-down center">
+            <h5>Contenido apto para móviles (tables / smartphones)</h5>
+            <h6>Active por favor las Herramientas para el Desarrollador. (Tecla F12)</h6>
+        </div>
+        <div id="vdf" class="fixed valign-wrapper black hide-on-large-only">
+            <video id="remotevideo" class="hide"></video>
+            <img src="images/python_cover.gif" alt="Videocurso de Python - Portada" width="100%" id="coverframe" class="fixed color-de-fondo">
+        </div>
+        <div id="listavideos" class="hide-on-large-only">
+            <!-- AQUÍ CARGAREMOS LA LISTA DE VIDEOS REMOTOS A REPRODUCIR -->
+        </div>
+    </body>
+</html>

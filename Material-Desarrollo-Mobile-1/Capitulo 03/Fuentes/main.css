@@ -1,0 +1,12 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    }
+
+p.codigo {
+    font-family: 'courier';
+    background-color: lightgray;
+    font-size: 15px;
+    border-style: dashed;
+    border-color: gainsboro;
+    }
+    

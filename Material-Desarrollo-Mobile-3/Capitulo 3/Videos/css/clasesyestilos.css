@@ -1,0 +1,22 @@
+body {
+    font-family: 'ubuntu', Arial, Helvetica;
+    background-color: #FFFFDF;
+}
+
+.fixed {
+        position: sticky;
+        top: 0;
+        left: 50;
+        right: 50;
+        z-index: 999;
+}
+
+.scrollable {
+    margin-top: 0%;
+    overflow-y: scroll;
+    height: 90%;
+}
+
+.color-de-fondo {
+    background-color: #FFFFDF;
+}

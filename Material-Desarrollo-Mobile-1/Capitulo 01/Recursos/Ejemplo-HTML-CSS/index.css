@@ -1,0 +1,20 @@
+body {
+    background-color: cyan;
+    font-display: Arial, Sans serif;
+    color: brown;
+}
+
+h1 {
+    font-size: 30;
+}
+
+p {
+    font-style: italic;
+    
+}
+
+img {
+    border-style: dotted;
+    border-width: 6px;
+    border-color: red;
+}

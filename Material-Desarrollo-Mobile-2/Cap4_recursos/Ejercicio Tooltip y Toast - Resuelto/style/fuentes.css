@@ -1,0 +1,43 @@
+.logotipo {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+}
+
+.colorlogotipo {
+    color: darkslategray;
+}
+
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 34px;
+}
+
+h3 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+}
+
+article {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+/* Se puede comentar el siguiente bloque CSS 
+   para dejar la posición en pantalla por defecto */
+
+#toast-container {
+    min-width: 30%;
+    top: 50%;
+    right: 50%;
+    transform: translateX(50%) translateY(50%);
+}

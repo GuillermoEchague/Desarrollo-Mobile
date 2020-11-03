@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>iOS y iPadOS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="ratchet/css/ratchet.min.css" />
+        <link rel="stylesheet" href="ratchet/css/ratchet-theme-ios.min.css" />
+        <script src="ratchet/js/ratchet.min.js"></script>
+        <link rel="stylesheet" href="css/miestilo.css" />
+        <script src="js/funcionbotones.js" defer></script>
+    </head>
+    <body>
+        <header class="bar bar-nav">
+            <h1 class="title">Ratchet Framework</h1>
+
+            <button class="btn btn-link btn-nav pull-right">
+                <span class="icon icon-photo"></span>
+                <span class="icon icon-right-nav"></span>
+            </button>
+        </header>
+        <article>
+            <div class="alineado-al-centro">
+                <a href="#myModalexample" class="btn">Ventana modal</a>
+                <div id="myModalexample" class="modal">
+                    <header class="bar bar-nav">
+                        <a class="icon icon-close pull-right" href="#myModalexample"></a>
+                        <h1 class="title">Ventana Modal</h1>
+                    </header>
+                    <div class="content">
+                        <p class="content-padded">Esta es una ventana Modal según la visión de iOS y Ratchet Framework.</p>
+                        <p class="content-padded">De esta forma podemos mostrar textos e imágenes, como así también otro contenido multimedia</p>
+                        <img src="images/pwa_ok.jpg" width="80%">
+                        <p class="content-padded">Se puede mostrar un video, por ejemplo.</p>
+                        <video src="https://www.ferpro.online/mp3/musica/python-video02.mp4" controls width="100%"></video>
+                    </div>
+                </div>
+            </div>
+            <div class="alineado-al-centro">
+                <div class="toggle active">
+                    <div class="toggle-handle"></div>
+                </div>
+                <!-- <div class="toggle">
+                    <div class="toggle-handle"></div>
+                </div> -->
+            </div>
+        </article>
+        <article>
+            <div class="content-padded">
+                <h2>Universo iOS</h2>
+                <p>Aquí va el famoso Lorem Ipsum Dolor Sit Amet, bla bla bla...</p>
+                <p>¿Qué onda con los acentos en las fuentes predeterminadas del Framework Ratchet?</p>
+                <p>Canción - Sarandí - Alcántara - Paisandú - Chévere</p>
+                <p>También quisiera ver si la ñ minúscula y la Ñ mayúscula, funcionan.</p>
+            </div>
+            <ul class="table-view">
+                <li class="table-view-cell media">
+                    <a class="navigate-right">
+                    <span class="media-object pull-left icon icon-trash"></span>
+                    <div class="media-body">
+                    Item 1
+                    </div>
+                </a>
+                </li>
+                <li class="table-view-cell media">
+                <a class="navigate-right">
+                    <span class="media-object pull-left icon icon-gear"></span>
+                    <div class="media-body">
+                    Item 2
+                    </div>
+                </a>
+                </li>
+                <li class="table-view-cell media">
+                <a class="navigate-right">
+                    <span class="media-object pull-left icon icon-pages"></span>
+                    <div class="media-body">
+                    Item 3
+                    </div>
+                </a>
+                </li>
+            </ul>
+        </article>
+        <nav class="bar bar-tab">
+            <a class="tab-item " href="#">
+                <span class="icon">
+                <span class="icon icon-home" id="btnhome"></span>
+                </span>
+                <span class="tab-label">Home</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-person"></span>
+                <span class="tab-label">Perfil</span>
+            </a>
+            <a class="tab-item active" href="#">
+                <span class="icon icon-star-filled"></span>
+                <span class="tab-label">Favs</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-search"></span>
+                <span class="tab-label">Buscar</span>
+            </a>
+            <a class="tab-item" href="#">
+                <span class="icon icon-gear"></span>
+                <span class="tab-label">Config</span>
+            </a>
+        </nav>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- <script defer src="js/formulario.js"></script> -->
+        <meta name="viewport" content="width=device-width, user-scalable=no"/>
+        <meta charset="utf-8">
+        <title>Formulario de datos</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper grey darken-5">
+                <a href="#" class="brand-logo left"><img src="images/logo_redusers.png" width="50%"/></a>
+            </div>
+        </nav>
+        <main>
+            <form action="https://mailthis.to/ferproonline@gmail.com" method="POST">
+                <h4>Formulario de contacto</h4>
+                <p>Por favor, complete todos los campos:</p>
+                <div class="row">
+                    <div class="input-field">
+                        <i class="material-icons prefix">account_circle</i>
+                        <input id="nombre" type="text" class="validate">
+                        <label class="active" for="nombre">Nombre completo</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">today</i>
+                        <input id="fnacimiento" type="date" class="validate">
+                        <label class="active" for="fnacimiento">Fecha de nacimiento</label>
+                        <span class="helper-text" data-error="Fecha errónea" data-success="Ok"></span>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">email</i>
+                        <input id="email" type="email" class="validate">
+                        <label class="active" for="email">Correo electrónico</label>
+                    </div>
+                    <div class="input-field">
+                        <i class="material-icons prefix">cloud</i>
+                        <input id="web" type="url" class="validate">
+                        <label class="active" for="web">Web</label>
+                    </div>
+                </div>
+                <div class="row center">
+                    <button class="waves-effect waves-teal btn-flat" type="submit" name="action">Enviar
+                        <i class="material-icons right">send</i>
+                    </button>
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
